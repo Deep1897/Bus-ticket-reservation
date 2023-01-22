@@ -1,10 +1,9 @@
-# Bus-ticket-reservation
+
 <h1 align="center"> Bus Ticket Reservation System </h1>
 <h5 align="center"> Hi, I am Deep Raj Singh a Full Stack Java Developer from masai school and very thankfull to giving me an extreame oppertunity to create a pleasent project
-  that is Automated Student Registration System. During creating this project I learned may experiences and I am so happy about it</h5> 
+  that is Bus Ticket Reservation System. During creating this project I learned may experiences and I am so happy about it</h5> 
   <h2 align="left">About Project.
-  <h6>We have some courses and their specific seat available and some batches .Student can resister their course if he intrested of my course they choose the course and 
-    resister the course with courseID and their name,email as username and password then he can login to the my project and their is a Admin they also login and he have many authorites
+  <h6>We have some System of buses and a specific pattern to their roots and its all information in which admin can change their roots and update all the information like arrival time, departure time and their roots etc . the customer can search the information of buses with their source and destination and resister the specific bus as he needed.
     as you seen below<h6>
 <h2 align="left"> Features.
   <h6> - Administrator login only 3 times after that he have to login after some time .
@@ -36,10 +35,13 @@
              <br>
        <h3 align="center"> ER diagram of My Database.
        <hr>
-<img src="https://user-images.githubusercontent.com/88429770/208342983-5f9de00e-5c51-45ae-ba0b-05412540539c.jpg">
+<img src="https://user-images.githubusercontent.com/88429770/213914673-fd3cf367-bc7a-4677-9936-82086dcd747f.jpg">
 <h3 align="center"> ER diagram of My Project.
 <hr>
- <img src="https://user-images.githubusercontent.com/88429770/208343579-85fdf969-b6e2-4ec0-b3cf-2aca021a1bfa.jpg">
+ <img src="https://user-images.githubusercontent.com/88429770/213915161-0f19c089-a312-4acb-b951-66136a9ecbd2.jpg">
 
 
-    
+
+   
+
+
