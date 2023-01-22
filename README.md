@@ -13,6 +13,7 @@
   <h6> - Provide the confirmation of the seat to the Customer.
   <h6> - Provide the Contact persons details after confirmation of the seat
   
+  <h2 align="center" Technical Used> </h2>
      <h6> - java
      <h6> - MySql
      <h6> - Git & Github
