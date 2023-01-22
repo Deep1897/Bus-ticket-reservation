@@ -7,10 +7,11 @@ import exceptions.BusDetailsException;
 
 public class ProvideDetailsOfBus {
 	
-	public static void main(String[] args) {
+	public static void detaisBus() {
 		
 		BusInterface bus=new BusIntrImpl();
 		try {
+			
 			bus.provideDetailsOfBus();
 			//System.out.println(b);
 			

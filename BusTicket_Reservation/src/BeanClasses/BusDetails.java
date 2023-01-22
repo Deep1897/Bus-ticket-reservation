@@ -11,14 +11,14 @@ public class BusDetails {
 	private String broute;
 	private String btype;
 	private int seats;
-    private Time atime;
-    private Time dtime;
+    private String atime;
+    private String dtime;
     
     public BusDetails() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public BusDetails(int bid, String bname, String broute, String btype, int seats, Time atime, Time dtime) {
+	public BusDetails(int bid, String bname, String broute, String btype, int seats, String atime, String dtime) {
 		super();
 		this.bid = bid;
 		this.bname = bname;
@@ -69,19 +69,19 @@ public class BusDetails {
 		this.seats = seats;
 	}
 
-	public Time getAtime() {
+	public String getAtime() {
 		return atime;
 	}
 
-	public void setAtime(Time atime) {
+	public void setAtime(String atime) {
 		this.atime = atime;
 	}
 
-	public Time getDtime() {
+	public String getDtime() {
 		return dtime;
 	}
 
-	public void setDtime(Time dtime) {
+	public void setDtime(String dtime) {
 		this.dtime = dtime;
 	}
 
