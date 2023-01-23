@@ -11,7 +11,7 @@ public class ProvideConfermation {
 	public static void prConfirm() {
 		
 		Scanner sc=new Scanner(System.in);
-		System.out.println("please enter the perticular bus Id to conferm your seat");
+		//System.out.println("please enter the perticular bus Id to conferm your seat");
 		
 		int bid=sc.nextInt();
 		

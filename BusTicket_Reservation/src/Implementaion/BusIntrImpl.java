@@ -45,6 +45,8 @@ public class BusIntrImpl implements BusInterface {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			provideDetailsOfBus();
 		}
 		
 		
@@ -75,6 +77,8 @@ public class BusIntrImpl implements BusInterface {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			provideConfermation(bid);
 		}
 		
 		
@@ -101,6 +105,8 @@ public class BusIntrImpl implements BusInterface {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			providePersonDetails( bid);
 		}
 		
 		
@@ -140,6 +146,8 @@ public class BusIntrImpl implements BusInterface {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			insertDetailsOfBus( bus,dr);
 		}
 		
 		
@@ -165,6 +173,8 @@ public class BusIntrImpl implements BusInterface {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			getDetailswithsourceAndDEstination(source,  desing);
 		}
 		
 		
@@ -187,6 +197,8 @@ public class BusIntrImpl implements BusInterface {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			adminsignIn( username,  password);
 		}
 		
 		return s;
@@ -207,6 +219,8 @@ public class BusIntrImpl implements BusInterface {
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("invalid input \n"+e.getMessage());
+			adminlogIn( username,  password);
 		}
 		
 		return s;

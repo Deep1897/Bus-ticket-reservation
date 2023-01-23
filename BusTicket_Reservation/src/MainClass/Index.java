@@ -1,5 +1,6 @@
 package MainClass;
 
+import java.awt.Window;
 import java.text.ParseException;
 import java.util.Scanner;
 
@@ -14,14 +15,21 @@ public class Index {
 		
 		public static void main(String[] args) {
 			
-			System.out.println("press:1 for Admin login");
+			System.out.println("press: 1 for Admin login");
 			System.out.println("press: 2 for Admin SignIn");
 			System.out.println("press: 3 for customer service");
 			boolean flag=false;
 			BusInterface bus=new BusIntrImpl();
-			
+			int logInput=0;
 			Scanner sc=new Scanner(System.in);
-			int logInput=sc.nextInt();
+			try {
+				 logInput=sc.nextInt();
+			} catch (Exception e) {
+				// TODO: handle exception
+				System.out.println("invalid Input \n"+e.getMessage());
+				
+			}
+			
 			
 			if(logInput==2)
 			{
